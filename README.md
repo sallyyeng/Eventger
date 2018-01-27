@@ -6,6 +6,12 @@ with a minimalist touch. The app targets users who
 need event suggestions for whatever occasion be it romantic date,
 painting the town, or family night out.
 
+### Preview
+
+![Main Page](https://i.imgur.com/LEB2tns.jpg)
+![Event Feed](https://i.imgur.com/W5toALL.png)
+
+
 ## Team
 
   - Sally Eng
@@ -98,12 +104,6 @@ npm test
 ```
 
 Open [http://localhost:3000/](http://localhost:3000/) to see your app, refresh for changes.
-
-### Preview
-
-
-![Main Page](https://imgur.com/a/WO1gH)
-![Event Feed](https://imgur.com/a/1saYx)(https://imgur.com/a/zCDps)
 
 ## Contributing
 
