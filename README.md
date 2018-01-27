@@ -1,6 +1,7 @@
 # Event-gers
 
 > Take back your Saturday night!
+>
 > The Event-gers app is a quick aggregator of local events
 with a minimalist touch. The app targets users who
 need event suggestions for whatever occasion be it romantic date,
