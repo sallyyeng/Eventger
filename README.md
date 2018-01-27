@@ -1,50 +1,73 @@
-# Project Name
+# Event-gers
 
-> The Event-gers project was created to fulfill our group requirements
-for the Greenfield Project. Our app is quick aggregator of local events
+> Take back your Saturday night!
+> The Event-gers app is a quick aggregator of local events
 with a minimalist touch. The app targets users who
-need event suggestions when they are going on a date,
-doing a group activity, or doing family friendly events.
+need event suggestions for whatever occasion be it romantic date,
+painting the town, or family night out.
 
 ## Team
 
-  - Begoña Guereca
   - Sally Eng
+  - Begoña Guereca
   - Briceida Mariscal
   - Garrett Hara
 
 ## Table of Contents
 
-1. [Usage](#Usage)
+1. [Tech Stack](#tech-stack)
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Roadmap](#roadmap)
+    1. [Starting Server](#starting-server)
+    1. [Webpack Bundling](#webpack-bundling)
+    1. [Testing](#testing)
 1. [Contributing](#contributing)
 
-## Usage
+## Developer Instructions
+> Follow instructions for starting the server, installing dependencies, and webpack bundling below.
 
->'need to fill these in'
+## Tech Stack
+- React
+- Node/Express
+- MySQL/Sequelize
 
 ## Requirements
 
-- Node 6.4.0
-- body-parser 1.17.0
-- express  4.15.0
-- jquery 3.1.1
-- react 15.4.2
-- react-dom 15.4.2
-- request 2.81.0
-- sequelize 4.22.6
-- mysql: 2.13.0
-- mysql2: 1.4.2
-- passport: 0.4.0
-- express router: 4.15.0
-- react router: 4.2.2
-- yelp: 1.0.2
+- Axios
+- Babel
+- Bcrypt
+- Bluebird
+- Chai
+- Cookie Parser
+- Express
+- Latlong Geohash
+- Material UI
+- Moment
+- Morgan
+- MySQL
+- Passport
+- React
+- Request
+- Recompose
+- Semantic UI
+- Sequelize
+- TM-API
+- Webpack
+- Yelp-fusion
 
 ## Development
+
+1. Fork the repo from HRSF84-Pluto/Sesa.me on github.
+2. Clone down your fork
+  ```sh
+    git clone https://github.com/<username>/Eventger
+  ```
+3. Move into the repo after its been cloned onto your machine by typing the following command.
+  ```sh
+    cd Eventger/
+  ```
+3. Follow the instructions in the 'Installing Dependencies' section.
 
 ### Installing Dependencies
 
@@ -52,14 +75,35 @@ From within the root directory:
 
 ```sh
 npm install
-npm run start [further instructions in server/index.js]
+```
+
+### Starting Server
+
+```sh
+npm run start
+```
+
+### Webpack Bundling
+
+```sh
 npm run react-dev
 ```
 
-### Roadmap
+### Testing
 
-View the project roadmap: https://docs.google.com/spreadsheets/d/1CIdLmw6TvoYmIwLJrh9-kp-6BsdBwROXGzvdKBbLdPI/edit#gid=0
+Please run your changes through npm test before submitting a PR. This is part of the deployment process, so PR's will fail if there are any errors.
 
+```sh
+npm test
+```
+
+Open [http://localhost:3000/](http://localhost:3000/) to see your app, refresh for changes.
+
+### Preview
+
+
+![Main Page](https://imgur.com/a/WO1gH)
+![Event Feed](https://imgur.com/a/1saYx)(https://imgur.com/a/zCDps)
 
 ## Contributing
 
